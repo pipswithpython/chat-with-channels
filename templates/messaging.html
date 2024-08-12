@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat w/ channels!</title>
+        <link rel="stylesheet" href="/static/ main.css">
+    </head>
+    <body>
+        <div class="page-top">
+            <img class="page-logo" src="https://lh3.googleusercontent.com/a/ACg8ocLi3X9YoXl3eGmEwmLZan5s_G4ba4T66CuC8HdOMIh4RYqjp_s=s288-c-no">
+            <h1 class="page-title">Chat with channels</h1>
+            <i class="page-sub">First web-dev python project</i>
+        </div>
+        <div class="content">
+            <div class="channels" id="channels">
+                <div class="channel-name">#Channel 1</div>
+                <div class="channel-name">#Channel 2</div>
+            </div>
+            <div class="messages" id="messages">
+                <div class="message">Flexin: Hello, World! This is a message.</div>
+                <div class="message">Flexin: Hello, World! This is a another message.</div>
+            </div>
+            <div class="user-input" id="user-input">
+                <input type="text" class="user-input-box" id="message-input" name="message-input" placeholder="Type here" autocomplete="off">
+                <button id="message-send" class="message-send" onclick="sendMessage();">Send</button>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="/static/.js"></script>
+</html>
